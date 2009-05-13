@@ -1,0 +1,9 @@
+setup.cfg
+setup.py
+concrawl/__init__.py
+concrawl.egg-info/PKG-INFO
+concrawl.egg-info/SOURCES.txt
+concrawl.egg-info/dependency_links.txt
+concrawl.egg-info/entry_points.txt
+concrawl.egg-info/not-zip-safe
+concrawl.egg-info/top_level.txt
