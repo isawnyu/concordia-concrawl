@@ -5,20 +5,22 @@ version = '0.0'
 
 setup(name='concrawl',
       version=version,
-      description="",
+      description="Crawl and harvest linked data from Atom feeds",
       long_description="""\
 """,
-      classifiers=[], # Get strings from http://pypi.python.org/pypi?%3Aaction=list_classifiers
+      classifiers=[],
       keywords='',
-      author='',
-      author_email='',
-      url='',
-      license='',
+      author='Sean Gillies',
+      author_email='sean.gillies@gmail.com',
+      url='http://concordia.atlantides.org/',
+      license='BSD',
       packages=find_packages(exclude=['ez_setup', 'examples', 'tests']),
       include_package_data=True,
       zip_safe=False,
       install_requires=[
-          # -*- Extra requirements: -*-
+        'zc.dict',
+        'multiprocessing',
+        'httplib2'
       ],
       entry_points="""
       # -*- Entry points: -*-

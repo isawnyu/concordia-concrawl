@@ -11,6 +11,16 @@ from zc.dict import Dict, OrderedDict
 
 class Crawler(Process):
     
+    """Implements a crawling loop.
+    
+    Reference:
+    Crawling the Web: Gautam Pant, Padmini Srinivasan, and Filippo 
+    Menczer
+    
+    http://dollar.biz.uiowa.edu/~fil/Papers/crawling.pdf
+    http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.14.1830
+    """
+    
     def __init__(self, horizon, current, history):
         super(Crawler, self).__init__()
         self.horizon = horizon
